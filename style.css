@@ -1,0 +1,70 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .logo {
+    text-align: center;
+  }
+  .logo img {
+    width: 50%;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+  #app {
+    padding: 25px;
+    margin: 0 auto;
+  }
+  input {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  form button {
+    background-color: #44036f;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .lista button {
+    background-color: transparent;
+    font-size: 14px;
+    color: red;
+    border: none;
+    cursor: pointer;
+  }
+  li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 3px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .credito {
+    padding-top: 40vh;
+    text-align: center;
+  }
+  .credito p{
+    margin-bottom: -16px;
+  }
+  .credito a {
+    text-decoration: none;
+    color: #000; 
+  }
+  .credito a:hover {
+    color: #44036f;
+  }
+  
